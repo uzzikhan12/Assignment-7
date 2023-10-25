@@ -1,0 +1,517 @@
+*{
+    font-family: samsungOne,arial,sans-serif;
+}
+/* header start */
+header{
+    display: flex;
+    height: 60px;
+}
+.logo{
+    padding-right: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    height: 30px;
+    margin-left: 10px;    
+}
+.logo2{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    height: 30px;
+    margin-left: 10px;    
+}
+
+.headbutton{
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.imgLink2{
+    font-weight: 550;
+    font-size: 13px;
+    color:black;
+    text-decoration: none;
+}
+
+.headbutton:hover{
+    background-color: black;
+    color: white;
+}
+
+.imgLink2:hover{
+    background-color: black;
+    color: white;
+}
+
+.marginhead{
+    margin-left: 380px;
+}
+/* header end */
+
+/* section1  start*/
+
+.image{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-image: url(https://images.samsung.com/is/image/samsung/assets/pk/Desktop-Banner-Trade-3-1.jpg?imwidth=1536);
+    
+}
+
+.heading1{
+    padding-top: 200px;
+    font-size: 30px;
+    padding-left: 50px;
+}
+.para1{
+    /* font-size: 50px; */
+    padding-left: 40px;
+}
+
+.imgLink{
+    background-color:black;
+    color:white;
+    margin-left:50px ;
+    padding: 10px;
+    width: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button1{
+        margin-top: 40px;
+}
+
+.imgLink:hover{
+    opacity: 0.7;
+}
+
+/* section1 end */
+
+/* section2 start */
+
+.section2{
+    text-align: center;
+}
+
+.sechead{
+    font-size: 40px;
+}
+
+.section2link{
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+    font-weight: 550;
+}
+
+.section3{
+
+    /* flex-wrap: wrap; */
+    width: 45%;
+}
+
+
+
+.samsung{
+    /* display: inline-block; */
+    text-align: center;
+    position: relative;
+    background-image: url(https://images.samsung.com/is/image/samsung/assets/pk/home/684x6841.png?$684_684_PNG$);
+    height: 650px;
+    background-size: cover;
+    border-radius: 4%;
+    margin-top: 25px;
+}
+
+
+.sec2margin{
+    padding-top: 500px;
+    font-size: 25px;
+}
+
+.sec2para{
+    font-size: 15px;
+}
+.samsung:hover p{
+    display: none;
+}
+
+.imgLink1{
+    background-color:black;
+    color:white;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: none;
+}
+.samsung:hover a{
+    display: inline;
+}
+
+.section4{
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec4child{
+    display: inline;
+    position: relative;
+    text-align: center;
+    width: 45%;
+    height: 310px;
+    margin-left: 20px;
+    margin-top: 35px;
+    border-radius: 25px;
+    background-image: url(https://images.samsung.com/is/image/samsung/assets/pk/home/new-Flip-4.png?$160_160_PNG$);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f4f4f4;
+}
+
+.sec4child h4{
+    margin-top:230px ;
+}
+
+.sec4child p{
+    line-height: 5px;
+    font-size: 12px;
+}
+
+
+.sec4child:hover p{
+    display: none;
+}
+
+.sec4child:hover a{
+    display: inline;
+}
+
+
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.section5{
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+    text-align: center;
+}
+
+.sec5head{
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.sec5link{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    margin-left: 50px;
+}
+.sec5link2{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+
+.sec5head2{
+    margin-top: 480px;
+    font-size: 50px;
+}
+
+.sec6head2{
+    margin-top: 430px;
+    font-size: 45px;
+    margin-bottom: 0%;
+}
+
+.sec6button{
+    background-color:black;
+    color:white;
+    padding: 15px;
+    width: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.section5 p{
+    font-size: 18px;
+    font-weight: light;
+    margin-top: 2px;
+}
+
+
+.sec7link{
+    text-decoration:none;
+    color: black;
+    font-weight: 550;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.sec8head{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.section8{
+    /* text-align: center; */
+    /* padding-top: 20px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.child1{
+    text-align: center;
+    margin-top: 50px;
+    width: 20%;
+    height: 550px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    margin-left: 60px;
+}
+
+.child2{
+    text-align: center;
+    margin-top: 50px;
+    width: 20%;
+    height: 550px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.childimg{
+    margin-top: 40px;
+    margin-left: 13px;
+}
+
+.sec8para{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.color{
+    border: 1px solid;
+    display: inline-block;
+    text-align:center;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.sec8button{
+    font-size: 12px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.sec8button2{
+    font-size: 12px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.sec8{
+    margin-left: 17px;
+    display:block;
+    background-color:black;
+    color:white;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    text-decoration: none;    
+    font-size: 13px;
+}
+
+.button3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 30px;
+    opacity: 0.5;
+}
+.button4{
+    padding-top: 290px;
+    padding-left: 10px;
+
+}
+.button2{
+    padding-top: 290px;
+    padding-left: 50px;
+
+}
+
+.section9{
+
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.sec9head{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.section9 img{
+    display: flex;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.text{
+    margin-left: 70px;
+    font-size: 23px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.text2{
+    margin-left: 70px;
+    font-size: 23px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.text{
+    margin-left: 70px;
+    font-size: 23px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+
+.bold{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+.link2{
+    margin-left: 120px;
+    display: none;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.child4{
+    /* margin-top: 100px; */
+}
+
+.child4{
+    margin-top: 100px;
+}
+
+
+.child3:hover a{
+    display:block;
+    text-decoration: underline;
+}
+.child4:hover a{
+    display:block;
+    text-decoration: underline;
+}
+.child5:hover a{
+    display:block;
+    text-decoration: underline;
+}
+.section10{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.section10 input{
+    height: 45px;
+    width: 500px;
+    text-align: center;
+    border-radius: 30px;
+    
+}
+
+.section10 h1{
+    font-size: 45px;
+}
+
+.searchbutton{
+    width: 120px;
+    height: 30px;
+    font-size: 11px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-left: 10px;
+    opacity: 0.5;
+}
+
+.divfoot{
+    font-size: 11px;
+    opacity: 0.8;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.last{
+    display: flex;
+    border: 1px solid;
+}
+.child6{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style-type: none;
+    /* padding: 0%; */
+
+}
+li{
+    line-height: 30px;
+}
+
+li a{
+    margin-right:100px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    text-align: left;
+    opacity: 0.7;
+}
+
+
+li:hover a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.footpara{
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
